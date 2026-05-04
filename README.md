@@ -33,5 +33,5 @@ pip install -e .
 LLM 对话：
 > 用户：这段配置里有 base64，帮我解开
 > 
-> LLM 调用 `decode_base64(text="api_key: QWxhZGRpbjpvcGVuIHNlc2FtZQ==\nhost: example.com")`
-> → `api_key: Aladdin:open sesame\nhost: example.com`
+> LLM 调用 `decode_base64(text="key: aGVsbG8gd29ybGQ=)`
+> → `key: hello world`
