@@ -1,4 +1,4 @@
-"""Base64 Auto-Decode MCP Server.
+"""Base64 Auto-Decode MCP Server.a
 
 Scans any text for base64-encoded segments and automatically decodes them in-place.
 Non-base64 content passes through unchanged.
